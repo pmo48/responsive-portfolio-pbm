@@ -1,0 +1,10 @@
+body {
+        background-image: url(../images/oriental-tiles.png);
+        background-repeat: repeat;
+        background-size: 20%;
+      }
+.card-img-top {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+}
