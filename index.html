@@ -3,17 +3,21 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="../homework2/Assets/css/style.css">
+    
+    <!-- Custom CSS -->
 
-    <title>About Me</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+
+    <title>about me and portfolio home</title>
   </head>
   <body>
     <!-- Start Nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="#">Pat Moriarty</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -21,27 +25,31 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-md-auto">
           <li class="nav-item">
-            <a class="nav-link" href="../homework2/portfolio.html">Portfolio</a>
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../homework2/contact.html">Contact</a>
+            <a class="nav-link" href="./contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
    <!-- End Nav, begin about me -->
+
+    <div class="container">
+      <div class="row py-4">
+      </div>
     <div class="container">
         <div class="row">
             <div class="col-md-8 mt-2">
-                <div class="page-header">
+                <div class="page-header mt-2">
                     <h1 class="text-white">About Me</h1>
                 </div>
                 <div class="row">
                     <div class="col-md-3">
-                        <img src="../homework2/Assets/images/selfie.jpg" alt="Pat Selfie" class="img-thumbnail">
+                        <img src="./Assets/images/selfie.jpg" alt="Pat Selfie" class="img-thumbnail">
                     </div>
                     <div class="col-md-9">
-                        <p class="text-white">
+                        <p class="text-white ">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
                             nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
                             felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
@@ -82,10 +90,23 @@
         </div>
       </div>
     </div>
+  <div class="container">
+    <div class="row py-4">
+    </div>
+  </div>
+     <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
   </body>
   <footer class="footer mt-auto py-3 navbar-dark bg-dark text-center">
-    <div class="container">
-      <span class="text-muted"> <a href="https://www.linkedin.com/in/p-b-moriarty">linkedin</a> <a href="https://github.com/pmo48">github</a> <a href="mailto:pmoriarty100@gmail.com">email</span>
-    </div>
+    <span class="text-muted"> 
+      <a href="mailto:pmoriarty100@gmail.com"> <img src="./Assets/images/icons8-gmail-480.png" width="30" height="25"  alt="gmail icon profile" loading="lazy"></a> 
+      <a href="https://www.linkedin.com/in/p-b-moriarty"> <img src="./Assets/images/LI-In-Bug.png" width="30" height="25"  alt="linkedin icon profile" loading="lazy"></a> 
+      <a href="https://github.com/pmo48"> <img src="./Assets/images/GitHub-Mark-Light-120px-plus.png" width="30" height="25"  alt="github icon profile" loading="lazy"></a> 
+    </span>
   </footer>
 </html>
